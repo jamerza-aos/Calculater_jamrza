@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <form id="calculator">
+            <p>JAMERZA</p>
+            <input type="text" id="Ergibniss" readonly>
+            <div>
+                <input type="button" value="7" id="seben" onclick="board(document.getElementById('seben').value)">
+                <input type="button" value="8" id="acht" onclick="board(document.getElementById('acht').value)">
+                <input type="button" value="9" id="neun" onclick="board(document.getElementById('neun').value)">
+                <input type="button" value="+" id="plus" onclick="board(document.getElementById('plus').value)">
+            </div>
+            <div>
+                <input type="button" value="4" id="fier" onclick="board(document.getElementById('fier').value)">
+                <input type="button" value="5" id="fünf" onclick="board(document.getElementById('fünf').value)">
+                <input type="button" value="6" id="sechs" onclick="board(document.getElementById('sechs').value)">
+                <input type="button" value="-" id="minus" onclick="board(document.getElementById('minus').value)">
+            </div>
+            <div>
+                <input type="button" value="1" id="eins" onclick="board(document.getElementById('eins').value)">
+                <input type="button" value="2" id="zwei" onclick="board(document.getElementById('zwei').value)">
+                <input type="button" value="3" id="drei" onclick="board(document.getElementById('drei').value)">
+                <input type="button" value="*" id="multi" onclick="board(document.getElementById('multi').value)">
+            </div>
+            <div>
+                <input type="button" value="0" id="zero" onclick="board(document.getElementById('zero').value)">
+                <input type="button" value="." id="decimal" onclick="board(document.getElementById('decimal').value)">
+                <input type="button" value="/" id="gleich" onclick="board(document.getElementById('gleich').value)">
+            </div>
+            <div class="bottom">
+                <button type="button" id="rest" onclick="restt(document.getElementById('rest').value)">C</button>
+                <input type="button" value="=" id="equal" onclick="result()">
+            </div>
+        </form>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
